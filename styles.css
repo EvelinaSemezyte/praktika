@@ -463,11 +463,17 @@ iframe {
 
 /* About us English Page */
 .English {
-  padding: 5% 0;
+  padding: 0 0 10%;
 }
 
 .about-us-image {
   padding: 5% 0;
+}
+.about_us-image1{
+  width: 50%;
+}
+.about_us-image{
+  width: 50%;
 }
 
 #about-us a {
@@ -592,7 +598,9 @@ footer {
   .carousel-caption h4 {
     font-size: 22px;
   }
-
+  .about_us-image{
+    width: 70%;
+  }
   .carousel-caption {
     max-width: 400px;
   }
@@ -649,6 +657,9 @@ footer {
 @media only screen and (max-width: 430px) {
   .navbar-brand img {
     height: 45px;
+  }
+  .big-heading {
+    font-size: 24px;
   }
 
   .carousel-img {
