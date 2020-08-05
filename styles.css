@@ -7,10 +7,10 @@ p {
   line-height: 1.6;
 }
 
-
-a{
-  text-decoration: none!important;
+a {
+  text-decoration: none !important;
 }
+
 footer {
   font-size: 12px;
 }
@@ -24,12 +24,14 @@ footer {
   padding: 0 14%;
 }
 
-#news,#partneriai, #tikslai, #steigejai, #nariams, #projektai, #kontaktai, #liba, #simulith-zinios, #events, #imitacine_bendrove {
+#news, #about-us, #heipnet, #partneriai, #tikslai, #steigejai, #nariams, #projektai, #kontaktai, #liba, #simulith-zinios, #events, #imitacine_bendrove {
   padding: 4% 15%;
   font-size: 15px;
 }
-#naujienos{
-  padding: 4% 15% 2%;;
+
+#naujienos {
+  padding: 4% 15% 2%;
+  ;
 }
 
 #footer {
@@ -42,9 +44,11 @@ footer {
 }
 
 #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
-       }
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
 
 /* Navigation Bar Section */
 .nav-link {
@@ -52,12 +56,12 @@ footer {
 }
 
 .active-link .active-a {
-  color: #ffa372!important;
+  color: #ffa372 !important;
 }
 
 #navigation a:hover {
   color: #ffa372 !important;
-  background-color: #0f4c81!important;
+  background-color: #0f4c81 !important;
 }
 
 .navbar-dark .navbar-nav .nav-lin {
@@ -103,9 +107,16 @@ footer {
 }
 
 /* Carousel Section */
-/* #carousel {
-  padding: 0 12%;
-} */
+.carousel-img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#carousel a {
+  color: #fff;
+}
+
 .carousel-indicators li {
   width: 15px !important;
   height: 15px !important;
@@ -113,8 +124,8 @@ footer {
 }
 
 .carousel-caption {
-  left: 4% !important;
-  padding-bottom: 5% !important;
+  left: 15% !important;
+  padding-bottom: 4% !important;
   text-align: left !important;
   max-width: 500px;
 }
@@ -126,11 +137,6 @@ footer {
 
 .carousel-inner img {
   filter: grayscale(40%);
-}
-
-.carousel {
-  height: 400px;
-  overflow: hidden;
 }
 
 /* News Section */
@@ -179,17 +185,7 @@ hr {
   background-color: #ffa372;
 }
 
-.big-heading {
-  margin: 0;
-  color: #0f4c81;
-  font-size: 28px;
-}
-
 /* Events Section */
-.events-heading {
-  color: #fff;
-}
-
 .events-image {
   width: 100%;
   padding-bottom: 20px;
@@ -210,23 +206,51 @@ hr {
   line-height: 1.6;
 }
 
-.imitacine_bendrove ul li a, .imitacine_bendrove p a, .imitacine_bendrove ol li a, .nariams a{
+.imitacine_bendrove ul li a, .imitacine_bendrove p a, .imitacine_bendrove ol li a, .nariams a {
   color: #0f4c81;
 }
 
+.big-heading {
+  margin: 0;
+  color: #0f4c81;
+  font-size: 28px;
+}
+
 .big-heading a {
+  margin: 0;
+  color: #0f4c81;
+  font-size: 28px;
+}
+
+.events-heading {
+  color: #fff;
+  font-size: 28px;
+  margin: 0;
+}
+
+.events-heading a {
+  color: #fff !important;
+  font-size: 28px;
+  margin: 0;
+}
+
+.big-heading a:hover {
   color: #0f4c81;
 }
-.nariams a:hover{
+
+.events-heading a:hover {
+  color: #fff;
+}
+
+.nariams a:hover {
   text-decoration: none;
   color: #ffa372;
 }
+
 .imitacine_bendrove a:hover {
   text-decoration: none;
   color: #ffa372;
 }
-
-
 
 .imitacine_bendrove li a {
   color: black;
@@ -238,16 +262,21 @@ hr {
   padding-bottom: 20px;
   padding-top: 0;
 }
+
 /* Tikslai Page */
-.tikslai .center{
+.tikslai .center {
   text-align: center;
 }
-.tikslai-img{
+
+.tikslai-img {
   width: 40%;
 }
-.mes-esame{
-  ;padding-top: 4%;
+
+.mes-esame {
+  ;
+  padding-top: 4%;
 }
+
 /* Steigimo Page */
 .steigimo-zingsniai ol li a {
   color: #ffa372;
@@ -266,82 +295,134 @@ hr {
   text-decoration: none;
   font-weight: bold;
 }
+
 /* Naujienos Page */
-.news-heading{
+.news-heading {
   color: #0f4c81;
   font-size: 18px;
   padding-top: 30px;
-
 }
-.news-text{
+
+.news-text {
   padding-top: 22px;
 }
-.news-text a{
+
+.news-text a {
   color: black;
 }
-.news-text a:hover{
+
+.news-text a:hover {
   color: #ffa372;
 }
+
 /* Nariams Page */
-.nariams-img{
+.nariams-img {
   width: 60%;
   padding: 15px 0;
 }
+
 /* Liba Page */
-.liba-logo{
-  padding-top: 15px;
+.liba-logo {
+  padding-top: 30px;
   width: 50%;
 }
-.row .center{
+
+.row .center {
   text-align: center;
 }
-/* Kontaktai Page */
 
-.card-header h3{
+/* Projektai Page */
+.projektai {
+  padding: 10% 0;
+}
+
+.project-image {
+  width: 70%;
+  padding: 3% 0;
+}
+
+.heipnet {
+  padding: 7% 0 3%;
+}
+
+.konkursas-image {
+  padding: 4% 0;
+  width: 80%;
+}
+
+.placiau {
+  color: #ed6663 !important;
+}
+
+.placiau:hover {
+  font-weight: bold;
+}
+
+/* Kontaktai Page */
+.card-header h3 {
   font-size: 18px;
 }
-.card-body .card-body-pareigos{
+
+.card-body .card-body-pareigos {
   font-size: 13px;
   font-weight: bolder;
 }
-.card-body p{
+
+.card-body p {
   font-size: 13px;
 }
-iframe{
-  width:100%;
+
+iframe {
+  width: 100%;
   height: 300px;
 }
-.contact{
+
+.contact {
   text-align: center;
-  padding: 20px 0;
-}
-.contact p{
   padding: 20px 0;
 }
 
-.contact-card .card{
+.contact p {
+  padding: 20px 0;
+}
+
+.contact-card .card {
   text-align: center;
 }
-.contact a, .contact-card a{
+
+.contact a, .projektai p a, .contact-card a {
   color: #0f4c81;
 }
-.contact a:hover, .contact-card a:hover{
+
+.contact a:hover, .projektai a:hover, .contact-card a:hover {
   color: #ffa372;
 }
+
+/* Straipsnis Page */
+.post-image {
+  width: 80%;
+  max-height: 500px;
+  padding: 0 0 4%;
+}
+
 /* Steigejai Page */
-.steigejai img{
+.steigejai img {
   width: 50%;
   text-align: center;
 }
-.partneriai ul{
+
+.partneriai ul {
   list-style-type: square;
 }
-.partneriai a{
+
+.partneriai a {
   color: #0f4c81;
 }
-.partneriai a:hover{
+
+.partneriai a:hover {
   color: #ffa372;
 }
+
 /* Simulith zinios Page */
 .dropbtn {
   background-color: #0f4c81;
@@ -350,7 +431,6 @@ iframe{
   font-size: 16px;
   border: none;
   margin: 20px 0;
-
 }
 
 .dropdown {
@@ -362,10 +442,11 @@ iframe{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-
-  max-height:250px;/* you can change as you need it */
-   overflow:auto;/* to get scroll */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-height: 250px;
+  /* you can change as you need it */
+  overflow: auto;
+  /* to get scroll */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -377,10 +458,25 @@ iframe{
 }
 
 .dropdown-content a:hover {
-color: #ffa372;}
+  color: #ffa372;
+}
 
+/* About us English Page */
+.English {
+  padding: 5% 0;
+}
 
+.about-us-image {
+  padding: 5% 0;
+}
 
+#about-us a {
+  color: #0f4c81;
+}
+
+#about-us a:hover {
+  color: #ffa372;
+}
 
 /* Footer Section */
 .comunication-logo {
@@ -391,7 +487,6 @@ color: #ffa372;}
   width: 100%;
   padding-top: 10px;
 }
-
 
 #footer hr {
   margin-bottom: 3rem !important;
@@ -415,26 +510,46 @@ footer {
     height: 40px;
   }
 
-
+  .carousel-img {
+    height: 450px;
+  }
 }
 
 @media only screen and (max-width: 1260px) {
   .nav-link {
     font-size: 11px;
   }
+
+  .carousel-img {
+    height: 400px;
+  }
+
+  .carousel-caption h4 {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
+  .carousel-img {
+    height: 350px;
+  }
+
   .nav-item a {
     text-align: center;
     font-size: 16px;
     padding: 10px 0;
   }
-  .nariams-img{
+
+  .nariams-img {
     width: 80%;
   }
-  .tikslai-img{
+
+  .tikslai-img {
     width: 50%;
+  }
+
+  .project-image {
+    width: 70%;
   }
 
   .comunication-logo-div-1 {
@@ -463,45 +578,62 @@ footer {
     font-size: 10px;
   }
 
-
-
   .carousel-indicators li {
     width: 10px !important;
     height: 10px !important;
   }
-  .news-text{
+
+  .news-text {
     padding-top: 5px;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .carousel-caption h4 {
+    font-size: 22px;
+  }
+
+  .carousel-caption {
+    max-width: 400px;
+  }
+
   .simulith-news-image {
     height: auto;
   }
-  .tikslai-img{
+
+  .tikslai-img {
     width: 80%;
+  }
+
+  .carousel-img {
+    height: 300px;
   }
 }
 
 @media only screen and (max-width: 575px) {
+  .carousel-img {
+    height: 270px;
+  }
+
   #navigation {
     padding: 0 7%;
   }
-  .tikslai-img{
+
+  .tikslai-img {
     width: 100%;
   }
-  #news, #nariams, #partneriai, #naujienos, #liba, #simulith-zinios, #events, #imitacine_bendrove{
+
+  #news, #nariams, #partneriai, #naujienos, #liba, #simulith-zinios, #events, #imitacine_bendrove {
     padding: 4% 6%;
   }
-  #liba, #kontaktai, #steigejai, #tikslai, #projektai{
+
+  #liba, #about-us, #heipnet, #kontaktai, #steigejai, #tikslai, #projektai {
     padding: 4% 9%;
   }
-  .steigejai img{
+
+  .steigejai img {
     width: 70%;
     text-align: center;
-  }
-  #carousel {
-    padding: 0 7%;
   }
 
   .footer-logo {
@@ -517,5 +649,19 @@ footer {
 @media only screen and (max-width: 430px) {
   .navbar-brand img {
     height: 45px;
+  }
+
+  .carousel-img {
+    height: 140px;
+  }
+
+  .carousel-caption h4 {
+    font-size: 15px;
+  }
+
+  .carousel-caption {
+    left: 4% !important;
+    padding-bottom: 3% !important;
+    max-width: 300px;
   }
 }
