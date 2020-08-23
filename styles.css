@@ -35,7 +35,7 @@ footer {
 }
 
 #footer {
-  padding: 3% 15%;
+  padding: 3% 14%;
 }
 
 .colored-section {
@@ -622,6 +622,12 @@ footer {
   .carousel-img {
     height: 270px;
   }
+  .imitacine-bendrove-image {
+    width: 60%;
+  }
+  .post-image{
+    width: 100%;
+  }
 
   #navigation {
     padding: 0 7%;
@@ -631,7 +637,7 @@ footer {
     width: 100%;
   }
 
-  #news, #nariams, #partneriai, #naujienos, #liba, #simulith-zinios, #events, #imitacine_bendrove {
+  #news, #footer, #nariams, #partneriai, #naujienos, #liba, #simulith-zinios, #events, #imitacine_bendrove {
     padding: 4% 6%;
   }
 
